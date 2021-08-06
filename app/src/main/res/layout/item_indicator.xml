@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/circle_round">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:src="@drawable/circle_highlight"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</layout>
