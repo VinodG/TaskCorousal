@@ -1,10 +1,11 @@
-package com.vinod.taskcorousal
+package com.vinod.taskcorousal.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.vinod.taskcorousal.databinding.ItemIndicatorBinding
+import com.vinod.taskcorousal.R
+import com.vinod.taskcorousal.Utils
 import com.vinod.taskcorousal.databinding.ItemViewPagerBinding
 
 class ImagesAdapter(var selectedItem: Int = 0) :

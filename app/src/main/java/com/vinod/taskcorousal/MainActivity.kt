@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 import androidx.databinding.DataBindingUtil
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
+import com.vinod.taskcorousal.adapters.ImagesAdapter
+import com.vinod.taskcorousal.adapters.IndicatorAdapter
+import com.vinod.taskcorousal.adapters.ItemsAdapter
 import com.vinod.taskcorousal.databinding.ActivityMainBinding
 
 

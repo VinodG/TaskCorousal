@@ -1,9 +1,10 @@
-package com.vinod.taskcorousal
+package com.vinod.taskcorousal.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.vinod.taskcorousal.R
 import com.vinod.taskcorousal.databinding.ItemContentBinding
 
 class ItemsAdapter(var list: MutableList<String>) :
